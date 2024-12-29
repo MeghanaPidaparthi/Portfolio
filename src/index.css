@@ -1,0 +1,17 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-background text-white font-montserrat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-heading font-bold;
+}
+
+button {
+  @apply bg-button text-white px-4 py-2 rounded;
+}
